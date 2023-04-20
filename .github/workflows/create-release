@@ -1,4 +1,4 @@
-- name: build artifacts
+- name: Build Artifacts
     run: make build-linux && make build-windows && make build-darwin
   - name: upload linux artifact
     uses: actions/upload-release-asset@v1
